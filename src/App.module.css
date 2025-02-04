@@ -1,0 +1,15 @@
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  background-color: #f7fab2;
+}

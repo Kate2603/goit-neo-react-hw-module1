@@ -1,0 +1,72 @@
+.friendList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-top: 20px;
+}
+
+.FriendListItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  height: 180px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.FriendListItem img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.FriendListItem h3 {
+  margin-top: 0;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.FriendListItem p {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.FriendListItem .stats {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.FriendListItem .stats .stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  background-color: white;
+}
+
+.FriendListItem .stats .stat strong {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}
